@@ -12,7 +12,7 @@ conn = st.connection("gsheets", type=GSheetsConnection)
 st.title("👶 Baby Time Tracker")
 
 # --- LOGIN / USER SELECTION ---
-user = st.sidebar.selectbox("Select Parent", ["Select Name", "Parent A", "Parent B"])
+user = st.sidebar.selectbox("Select Parent", ["Select Name", "Sneha", "Adithya"])
 
 if user != "Select Name":
     st.sidebar.success(f"Logged in as: {user}")
