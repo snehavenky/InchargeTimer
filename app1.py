@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import datetime
 from streamlit_gsheets import GSheetsConnection
 
-st.set_page_config(page_title="Parent Timer", icon="👶")
+st.set_page_config(page_title="Parent Timer", page_icon="👶")
 
 # --- DATABASE CONNECTION ---
 # This connects to a Google Sheet so data stays forever
